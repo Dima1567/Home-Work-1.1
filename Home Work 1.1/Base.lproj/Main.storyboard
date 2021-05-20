@@ -20,10 +20,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfQ-Xz-Der">
                                 <rect key="frame" x="28" y="68" width="358" height="357"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="358" id="ZfE-Vh-ele"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="357" id="mIr-y3-z1r"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHd-nL-6J6">
                                 <rect key="frame" x="28" y="472" width="358" height="357"/>
@@ -33,9 +29,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gHd-nL-6J6" secondAttribute="trailing" constant="28" id="3LM-g1-JRB"/>
                             <constraint firstItem="tfQ-Xz-Der" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bro-Pu-tnY"/>
-                            <constraint firstItem="gHd-nL-6J6" firstAttribute="width" secondItem="tfQ-Xz-Der" secondAttribute="width" id="NqX-kR-cvr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tfQ-Xz-Der" secondAttribute="trailing" constant="28" id="KRR-4L-LNm"/>
                             <constraint firstItem="tfQ-Xz-Der" firstAttribute="leading" secondItem="gHd-nL-6J6" secondAttribute="leading" id="bym-Fs-0Go"/>
+                            <constraint firstItem="gHd-nL-6J6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="i3b-bf-0O0"/>
                             <constraint firstItem="tfQ-Xz-Der" firstAttribute="trailing" secondItem="gHd-nL-6J6" secondAttribute="trailing" id="k2q-PU-xCi"/>
                             <constraint firstItem="tfQ-Xz-Der" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="k9J-CM-5wD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gHd-nL-6J6" secondAttribute="bottom" constant="33" id="poh-LV-OJM"/>
